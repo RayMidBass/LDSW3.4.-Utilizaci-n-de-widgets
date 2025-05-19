@@ -1,0 +1,35 @@
+name: LDSW3.4.-Utilizaci-n-de-widgets
+description: >
+  Proyecto Flutter de práctica para la materia LDSW que demuestra el uso de widgets básicos como Text, Row, Column, Stack y Container.
+
+publish_to: 'none' # Este proyecto no se publicará en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Íconos estilo iOS si se necesitan
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # Aquí puedes declarar imágenes si las agregas más adelante
+  # assets:
+  #   - assets/images/
+
+  # Ejemplo para fuentes personalizadas
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
